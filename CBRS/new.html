@@ -1,0 +1,24 @@
+<html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+<script>
+	$(document).ready(function(){
+
+		$('.dataName').click(function(){
+			
+			var dataname = $(this).innerHTML;
+			
+			$('#Space').html = '<form action="next.php" method="post" id="formName"><input type="hidden" name="data" value="'+dataname+'"></form>';
+			document.forms[0].submit();
+		});
+
+	});
+</script>
+</head>
+<body>
+<div id="Space"></div>
+<table border=1>
+<tr><td><span href="#" class="dataName">Gautam</span></td><td><span href="#" class="dataName">Sakthivel</span></td><td><span href="#" class="dataName">Prahlad</span></td></tr>
+</table>
+</body>
+</html>

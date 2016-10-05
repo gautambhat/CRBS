@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html style="margin:0;padding:0;overflow:hidden;">
+	<head>
+		<title>Slideshow</title>
+		<!<link rel="stylesheet" type="text/css" href="xls.css">
+		<link href='http://fonts.googleapis.com/css?family=Wire+One' rel='stylesheet' type='text/css'>
+		<script>
+			var image1 = new Image();
+			image1.src = "C1.jpg";
+			var image2 = new Image();
+			image2.src = "C2.jpg";
+			var image3 = new Image();
+			image3.src = "C3.jpg";
+			var image4 = new Image();
+			image4.src = "C4.jpg";
+		</script>
+	</head>
+	<style>
+
+#menu {
+	list-style-type: none;
+	float:right;
+	padding:37px 19px 0 0;
+}
+#menu li {
+	float:left;
+	padding-right:28px
+}
+#menu .end {
+	padding-right:0
+}
+#menu li a {
+	display:block;
+	font: 27px Wire One;
+	color:#fff;
+	text-decoration:none;
+	background:url(menu_marker.png) 0 10px no-repeat;
+	padding-left:20px
+}
+#menu li a:hover, #menu a {
+	color:#13c5ff
+}
+
+
+.btn1 {
+   background: url(buttons.png) no-repeat;
+	cursor: pointer;
+	font: 14px/24px "Oswald";
+	text-decoration: none;
+	text-transform: uppercase;
+	background-position: 0 0;
+	color: #966a01;
+	display: block;
+	height: 34px;
+	line-height: 34px;
+	width: 109px;
+}
+
+.btn {
+	background: url(bg-button.png) no-repeat;
+	background-position: 0 -70px;
+	color: #fff;
+	display: inline-block;
+	font: 24px/60px 'OpenSans';
+	height: 60px;
+	width: 230px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.btn:hover {
+	background-position: 0 0;
+}
+body{
+margin:0;padding:0;overflow:hidden;
+}
+	</style>
+	
+	<body>
+		<div id="header" style="width:100%;z-index:9999;position:fixed;background:rgba(0,0,0,0.65);">	
+			<!<img src="snuLogo.png">
+			<ul id="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Rules</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+			</ul>
+		</div>
+			
+		<div style="position:fixed;z-index:9999;"><object name="player_1385726128" id="player_1385726128" type="application/x-shockwave-flash" allowScriptAccess="always" allowNetworking="all" allowFullScreen="true" height="360" width="640" data="http://mmp.streamuk.com/index.php/kwidget/wid/0_h9cs3jhg/uiconf_id/5555579"><param name="allowScriptAccess" value="always" /><param name="allowNetworking" value="all" /><param name="allowFullScreen" value="true" /><param name="bgcolor" value="#000000" /><param name="movie" value="http://mmp.streamuk.com/index.php/kwidget/wid/0_h9cs3jhg/uiconf_id/5555579"/><param name="flashVars" value=""/><a href="/helpdesk/?">video platform</a><a href="http://www.streamuk.com/what-we-offer/media-platform">video management</a><a href="http://www.streamuk.com/what-we-offer/media-platform">video solutions</a><a href="http://www.streamuk.com/what-we-offer/media-platform">video player</a></object></div>	
+		<img src="C1.jpg" name="slide" style="position:absolute;height:100%;width:100%;">
+		<script>
+			var step = 1;
+			function slideit()
+			{
+				document.images.slide.src=eval("image"+step+".src");
+				if (step<4)
+					step++;
+				else
+					step=1;
+				//call function "slideit()" every 2.5 seconds
+				setTimeout("slideit()",5300)
+			}
+			slideit();
+		</script>
+		<div id="login" style="width:300px;height:150px;border-top-right-radius:200px;background:rgba(0,0,0,0.65);position:absolute;z-index:9999;bottom:0;left:0;">
+			<form action="next.php" method="post">
+				<input type="text" required placeholder="SNU Net ID" name="username" style="
+    padding: 3px;
+    margin-left: 30px;
+    outline-color: #13C5FF;};};};};};
+    margin-top: 30px;
+">
+				<br>
+				<input type="password" required placeholder="Password" name="password" style="
+    padding: 3px;
+    margin-left: 30px;
+    outline-color: #13c5ff;
+    margin-top: 15px;
+">
+				<br>
+				<input type="submit" value="Go" style="
+    padding: 3px 5px 3px 5px;
+    margin-left: 30px;
+    margin-top: 10px;
+">
+			</form>	
+		</div>
+	</body>
+</html>

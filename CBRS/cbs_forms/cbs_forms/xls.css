@@ -1,0 +1,308 @@
+
+#pics
+{
+	position: absolute;
+	top: 250px;
+	left:500px
+	opacity: 1.0 !important;
+	margin-left:  50px;
+
+
+
+	
+
+
+}
+
+
+#pics img{  
+    
+    float: right;
+    width:  650px; 
+    height: 350px; 
+    opacity: 1.0 !important;
+  
+    
+        
+}
+
+#page{
+	
+		background: url(../cbs_forms/xls1.jpg) no-repeat;
+
+	
+}
+
+.wrapper {
+	width:100%;
+	overflow:hidden
+}
+
+header {
+	height:645px
+}
+#menu {
+	list-style-type: none;
+	float:right;
+	padding:40px 19px 0 0
+}
+#menu li {
+	float:left;
+	padding-right:28px
+}
+#menu .end {
+	padding-right:0
+}
+#menu li a {
+	display:block;
+	font-size:16px;
+	color:#fff;
+	text-decoration:none;
+	background:url(../cbs_forms/menu_marker.png) 0 6px no-repeat;
+	padding-left:20px
+}
+#menu li a:hover, #menu a {
+	color:#13c5ff
+}
+
+
+
+#page2{
+	background: url(../cbs_forms/bg_top_img2.jpg) no-repeat; ;
+	
+	opacity: 0.7;
+	
+	
+}
+
+#footer p {
+
+	font-size: 12px;
+	line-height: 30px;
+	padding-left: 10px;
+	margin-top: 200px;
+	
+	
+}
+#connect {
+	float: right;
+	display: inline-block;
+	margin-right: 30px;
+}
+#connect a {
+	background: url(../cbs_forms/icons.png) no-repeat;
+	display: inline-block;
+	height: 30px;
+	width: 30px;
+	margin: 0 10px;
+}
+#connect a.googleplus {
+	background-position: 0 -40px;
+}
+#connect a.twitter {
+	background-position: 0 -80px;
+}
+#connect a.tumbler {
+	background-position: 0 -120px;
+}
+#connect a.facebook:hover {
+	background-position: -40px 0;
+}
+#connect a.googleplus:hover {
+	background-position: -40px -40px;
+}
+#connect a.twitter:hover {
+	background-position: -40px -80px;
+}
+#connect a.tumbler:hover {
+	background-position: -40px -120px;
+}
+
+
+}
+
+.f1:after, #contents:after {
+	clear:both;
+	content:"";
+	display:block;
+	height:1%;
+	visibility:hidden;
+	position: absolute;
+	top: 250px;
+	left:500px
+	opacity: 1.0 !important;
+
+	
+}
+
+#dat{
+	margin-left: 850px;
+	margin-top: 250px;
+	color: white;
+}
+
+#adbox {
+	height: 407px;
+	width: 900px;
+	margin: -10px 0 0;
+	position: relative;
+}
+#adbox span.info {
+	display: inline-block;
+	font-size: 14px;
+	text-align: center;
+	position: absolute;
+	left: 330px;
+	bottom: 25px;
+}
+#adbox span.info em {
+	display: block;
+	font-size: 24px;
+	font-style: normal;
+}
+#adbox div.details {
+	margin-top: 10px;
+background-color: black;
+   opacity: 0.7;
+	height: 580px;
+	width: 320px;
+	padding: 61px 45px;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+#adbox div.details h1 {
+	color: aliceblue;
+	font-family: "Comic Sans MS";
+	font-size: 20px;
+	font-weight: normal;
+	margin: 0 0 24px;
+	text-align: center;
+	text-shadow: 1px 1px #fff;
+}
+#adbox div.details p {
+	color: #241b18;
+	font-size: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.btn1 {
+   background: url(/Users/apple1/Desktop/buttons.png) no-repeat;
+	cursor: pointer;
+	font: 14px/24px "Oswald";
+	text-decoration: none;
+	text-transform: uppercase;
+	background-position: 0 0;
+	color: #966a01;
+	display: block;
+	height: 34px;
+	line-height: 34px;
+	width: 109px;
+}
+
+.btn {
+	background: url(/Users/apple1/Desktop/bg-button.png) no-repeat;
+	background-position: 0 -70px;
+	color: #fff;
+	display: inline-block;
+	font: 24px/60px 'OpenSans';
+	height: 60px;
+	width: 230px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.btn:hover {
+	background-position: 0 0;
+}
+
+#slideshow2{
+	
+	position: absolute;
+	top: 250px;
+	left:500px
+	opacity: 1.0 !important;
+	margin-left:  50px;
+
+	
+}
+
+#slideshow2 img {
+	
+	 float: right;
+    width:  650px; 
+    height: 350px; 
+    opacity: 1.0 !important;
+	
+}
+
+#cal{
+	
+	margin-left: 800px;
+	margin-top: 0;
+		clear:both;
+	content:"";
+	display:block;
+	height:1%;
+
+	position: absolute;
+	top: 300px;
+	left:500px
+	opacity: 1.0 !important;
+}
+
+#selector {
+	
+	margin-left: 1150px;
+	margin-top: 0px;
+   clear:both;
+	content:"";
+	display:inherit; 
+	height:1%;
+   top: 200px;
+	left:500px
+	opacity: 1.0 !important;
+	position:absolute;
+	
+	
+}
+
+#heading
+{
+	margin-top: 50px;
+	font-size: 35px;
+	color: darkgrey;
+	text-align: center;
+   font-family:"Cordia New",Ayuthaya,Tahoma,"Arial Unicode MS";
+   letter-spacing: 0.3em;
+   font-weight: lighter;
+
+	
+	
+}
+
+#SM{
+	
+	margin-left: 840px;
+	margin-top: 0;
+		clear:both;
+	content:"";
+	display:block;
+	height:1%;
+
+	position: absolute;
+	top: 350px;
+	left:500px
+	opacity: 1.0 !important;
+}
+
+
+#form_footer {
+	
+	
+	font-size: 12px;
+	line-height: 30px;
+	padding-left: 10px;
+	margin-top: 600px;
+}

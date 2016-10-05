@@ -1,0 +1,43 @@
+
+#menu {
+	list-style-type: none;
+	float:right;
+	padding:37px 19px 0 0;
+}
+#menu li {
+	float:left;
+	padding-right:28px
+}
+#menu .end {
+	padding-right:0
+}
+#menu li a {
+	display:block;
+	font: 28px Wire One,serif;
+	color:#fff;
+	text-decoration:none;
+	background:url(menu_marker.png) 0 10px no-repeat;
+	padding-left:20px
+}
+#menu li a:hover, #menu a {
+	color:#13c5ff;
+}
+
+#ABCConf {
+	font: 55px Plaster;
+	display:block;
+	height: 80px;
+	padding-top: 20px;
+	z-index: 9000;
+	position: fixed;
+	background: none;
+}
+#header{
+	width:100%;
+	
+	z-index:8000;
+	position:fixed;
+	background:rgba(0,0,0,0.65);
+	/*opacity:0.65;
+	/*filter:alpha(opacity=65); /* For IE8 and earlier */
+}

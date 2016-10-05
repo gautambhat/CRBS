@@ -1,0 +1,255 @@
+form {width:560px;margin:0px auto;text-align:left;}
+p {padding:23px 0px;border-top:1px dotted #c7c7c7;}
+
+
+
+label {
+	float:left;
+	width:180px;
+}
+
+input, 
+select, 
+ 
+button {
+	background:#fff;
+	font-size:1em;
+	font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight:300;
+	color:#8c8a8b;
+}
+
+
+button {
+	background: #f2f2f2; 
+	background: -moz-linear-gradient(top, #f2f2f2 0%, #e8e8e8 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f2f2f2), color-stop(100%,#e8e8e8));
+	background: -webkit-linear-gradient(top, #f2f2f2 0%,#e8e8e8 100%); 
+	background: -o-linear-gradient(top, #f2f2f2 0%,#e8e8e8 100%); 
+	background: -ms-linear-gradient(top, #f2f2f2 0%,#e8e8e8 100%); 
+	background: linear-gradient(top, #f2f2f2 0%,#e8e8e8 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#e8e8e8',GradientType=0 );
+
+	-webkit-box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 1);
+	-moz-box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 1);
+	box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 1); 
+	border-color: #eeeced #eeeced #9b9b9b;
+    border-style: solid;
+    border-width: 1px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	padding:5px 30px;
+	font-weight:bold;
+	text-shadow:0px 1px 0px #fff;
+	cursor:pointer;
+}
+
+button:hover {
+	background:#f5f5f5;
+}
+
+button:focus, 
+button:active {
+	background:#e8e8e8;
+}
+
+button.action {
+	background: #fa765f; 
+	background: -moz-linear-gradient(top, #fa765f 0%, #e15d46 100%); 
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fa765f), color-stop(100%,#e15d46));
+	background: -webkit-linear-gradient(top, #fa765f 0%,#e15d46 100%);
+	background: -o-linear-gradient(top, #fa765f 0%,#e15d46 100%);
+	background: -ms-linear-gradient(top, #fa765f 0%,#e15d46 100%); 
+	background: linear-gradient(top, #fa765f 0%,#e15d46 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fa765f', endColorstr='#e15d46',GradientType=0 );
+	-webkit-box-shadow: inset 0px 1px 0px 0px rgba(255, 179, 166, 1);
+	-moz-box-shadow: inset 0px 1px 0px 0px rgba(255, 179, 166, 1);
+	box-shadow: inset 0px 1px 0px 0px rgba(255, 179, 166, 1); 
+	border-color: #fc7f6b #fc7f6b #d0432f;
+	color:#b13e2d;
+	text-shadow:0px 1px 0px #ffb3a5;
+}
+
+button.action:hover {
+	background:#fa765f;
+}
+
+button.action:focus, 
+button.action:active {
+	background:#e15d46;
+}
+
+
+div.selector, 
+div.selector span,
+div.checker span,
+
+div.uploader,
+div.uploader span.action {
+  background-image: url(../images/sprite.png);
+  background-repeat: no-repeat;
+}
+
+.selector, 
+
+.checker, 
+.uploader, 
+.selector *, 
+
+.checker *, 
+.uploader *{
+	margin: 0;
+	padding: 0;
+}
+
+div.selector {
+  background-position: -483px -160px;
+  line-height: 32px;
+  height: 32px;float:left;
+}
+
+div.selector span {
+  background-position: right 0px;
+  height: 32px;
+  line-height: 32px;
+}
+.selector option {padding:3px;border-bottom:1px dotted #ccc;}
+div.selector select {
+  top:2px;
+left:10px;border:1px solid #333;
+}
+
+div.selector:active, 
+div.selector.active {
+	background-position: -483px -192px;
+}
+
+div.selector:active span, 
+div.selector.active span {
+	background-position: right -32px;
+}
+
+div.selector.focus, div.selector.hover, div.selector:hover {
+	background-position: -483px -224px;
+}
+
+div.selector.focus span, div.selector.hover span, div.selector:hover span {
+	background-position: right -64px;
+}
+
+div.selector.focus:active,
+div.selector.focus.active,
+div.selector:hover:active,
+div.selector.active:hover {
+	background-position: -483px -256px;
+}
+
+div.selector.focus:active span,
+div.selector:hover:active span,
+div.selector.active:hover span,
+div.selector.focus.active span {
+	background-position: right -96px;
+}
+
+div.selector.disabled,
+div.selector.disabled:active,
+div.selector.disabled.active {
+	background-position: -483px -288px;
+}
+
+div.selector.disabled span,
+div.selector.disabled:active span,
+div.selector.disabled.active span {
+  background-position: right -128px;
+}
+
+
+
+div.selector {
+  margin-bottom:0px;
+  width: 250px;
+  color: #464545;
+  font-size: 14px;cursor:pointer;
+}
+
+div.selector select {
+  width: 250px;
+}
+
+div.selector span {
+  padding: 2px 25px 0px 2px;
+  cursor: pointer;
+ color:#8c8a8b;
+  width: 226px;
+  text-shadow: 0px 1px 0px #fff;
+}
+
+div.selector.disabled span {
+	color: #bbb;
+}
+
+
+
+
+ div.selector {
+	position: relative;
+	padding-left: 10px;
+}
+
+ div.selector span {
+	display: block;
+	float: left;
+}
+
+ div.selector select {
+	position: absolute;
+	opacity: 0;
+}
+
+
+#adbox {
+	height: 500px;
+	width: 900px;
+	margin: -10px 0 0;
+	position: relative;
+}
+#adbox span.info {
+	display: inline-block;
+	font-size: 14px;
+	text-align: center;
+	position: absolute;
+	left: 330px;
+	bottom: 25px;
+}
+#adbox span.info em {
+	display: block;
+	font-size: 24px;
+	font-style: normal;
+}
+#adbox div.details {
+	margin-top: 10px;
+background-color: black;
+   opacity: 0.7;
+	height: 580px;
+	width: 320px;
+	padding: 61px 45px;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+#adbox div.details h1 {
+	color: aliceblue;
+	font-family: "Comic Sans MS";
+	font-size: 34px;
+	font-weight: normal;
+	margin: 0 0 24px;
+	text-align: center;
+	text-shadow: 1px 1px #fff;
+}
+#adbox div.details p {
+	color: #241b18;
+	font-size: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
